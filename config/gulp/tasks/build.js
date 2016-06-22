@@ -8,10 +8,10 @@ var revReplace = require('gulp-rev-replace');
 var uglify = require('gulp-uglify');
 var cssnano = require('gulp-cssnano');
 
-require('@ngstarter/systemjs-extension')(config);
+require('@ngstarter/webpack-extension')(config);
 
 gulp.task('build', function (done) {
-    runSequence('test', 'build-systemjs', 'build-assets', done);
+    runSequence('test', 'build-webpack', 'build-assets', done);
 });
 
 /* Concat and minify/uglify all css, js, and copy fonts */
