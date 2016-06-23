@@ -4,3 +4,30 @@ eg.
 $font-size-base: 13px;
 */
 
+$font-size-base: 20px;
+$font-size-large: 28px;
+$line-height-computed: 34px;
+
+$container-tablet: (720px + $grid-gutter-width);
+$container-sm: $container-tablet;
+$container-desktop: (940px + $grid-gutter-width);
+$container-md: $container-desktop;
+$container-large-desktop: (940px + $grid-gutter-width);
+$container-lg: $container-large-desktop;
+
+$font-family-serif: 'Muli', sans-serif;
+$font-family-sans-serif: 'Muli', sans-serif;
+$font-family-base: 'Muli', sans-serif;
+$headings-font-family: 'Muli', sans-serif;
+$web-font-path: 'https://fonts.googleapis.com/css?family=Muli';
+
+$body-bg: rgba( 65, 124, 181, 1.0);
+$navbar-inverse-bg: rgba(56, 105, 150, 1);
+$navbar-inverse-color: white; 
+$navbar-inverse-border: transparent;
+$navbar-inverse-link-color: white;
+$navbar-inverse-brand-color: white;
+
+$navbar-height: 64px;
+/* starter-instance end */
+
