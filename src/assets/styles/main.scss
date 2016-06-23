@@ -5,3 +5,16 @@
 @import 'fonts';
 @import 'overrides';
 @import 'module';
+/* starter end */
+
+@import 'css3-mixins';
+.navbar {
+  border: 0;
+  @include box-shadow(0, 2px, 5px);
+  .navbar-brand {
+    font-family: 'Norican';
+  }
+}
+
+/* starter-instance end */
+
